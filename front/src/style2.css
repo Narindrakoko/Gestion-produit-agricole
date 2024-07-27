@@ -1,0 +1,412 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+
+.form-box {
+    position: relative;
+    width: 400px;
+    height: 500px;
+    background:transparent;
+    border: 2px solid 	black;
+    border-radius: 20px;
+    backdrop-filter: (5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 2em;
+    color:	black;
+    text-align: center;
+}
+
+.inputbox {
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid black;
+}
+
+.inputbox:hover{
+    border-bottom: 2px solid  	 #0f9608;
+}
+
+
+.inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: black;
+    font-size: 1em;
+    pointer-events: none;
+}
+
+input:focus~label,
+input:valid~label {
+    top: -5px;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: 	black;
+}
+
+.oublier {
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+}
+
+.forget label a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.forget label a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.registre p a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+}
+
+.registre p a:hover {
+    text-decoration: underline;
+}
+
+
+.btn-order:hover{
+    color: 	#0f9608;
+    border-color: 	#0f9608;
+ 
+    
+}
+
+#input-with-sx{
+    color: rgb(0, 0, 0);
+    font-size: large;
+}
+
+.btn-order{
+    color: black;
+    width: 100%;
+    height: 35px;
+    border-radius: 40px;
+    background:transparent;
+    border-style:solid;
+  
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    
+    transition: 0.5s;
+}
+
+
+.ajout{
+    height: 5vh;
+        width: 100%;
+        outline: none;
+        border-style: none;
+        background-color: transparent;
+    
+        font-size: 1.4rem;
+        font-weight: bold;
+    
+        opacity: 80%;
+        text-align: center;
+    
+    
+        transition: 0.5s;
+        padding: 2px 30px;
+        margin: 0;
+    
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+    
+
+    
+
+
+
+
+.ajout:hover,
+.ajout:active{
+    color:  	white;
+    background-color:	transparent;
+
+    border-color: white;
+}
+
+
+ 
+
+
+
+.menubtn{
+    height: 5vh;
+    width: 100%;
+    outline: none;
+    border-style: none;
+    background-color: transparent;
+
+    font-size: 1.4rem;
+    font-weight: bold;
+
+    opacity: 80%;
+    text-align: center;
+
+
+    transition: 0.5s;
+    padding: 2px 30px;
+    margin: 0;
+
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+
+}
+    
+
+    
+
+
+
+.menubtn:hover,
+.menubtn:active{
+    color:  	white;
+    background-color:	transparent;
+
+    border-color: white;
+}
+
+
+
+
+
+
+
+.App-logo{
+    justify-content: center;
+    margin-left: 85px;
+    text-align: center;
+}
+
+.menu1{
+    background: transparent;
+
+}
+
+.nav_bar{
+    background-color: #90EE90;
+}
+
+.save{
+    margin-top: 50px;
+}
+
+
+.closebtn{
+    text-align: right;
+
+    
+}
+
+.btn-rapport{
+    margin-left: 30px;
+}
+
+
+
+.logo{
+    text-align: center;
+    font-size: 30px;
+    color: #90EE90;
+}
+
+
+
+
+
+.banner{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-color: #fdfffc;
+    background-size: cover;
+    height: 800px;
+}
+
+.banner .banner-desc{
+    font-size: 35px;
+    font-weight: 400;
+    color: #013230;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+.banner .banner-desc span{
+    color: rgb(175, 66, 23);
+}
+
+
+
+
+.play{
+    color: black;
+}
+
+    .card1{
+        opacity: 75%;
+    }
+
+    .contenu1{
+       
+        background-size: cover;
+    }
+
+    .btn3{
+        color: black;
+        border-color:#90EE90 ;
+        transition: 0.5s;
+        width: 150px;
+        border-radius: 20px;
+        
+
+    }
+    .btn3:hover{
+        color:#90EE90 ;
+        background-color:transparent;
+      
+    }
+
+    .c1{
+        font-size: 25px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+.table1{
+    background: #4C4D4B ;
+}
+
+
+.newrapport{
+    height: 790px;
+}
+
+.lorem{
+    font-size: 1.5rem;
+    color: #013230;
+}
+
+.lorem2{
+    font-size: 1.5rem;
+}
+
+footer {
+    width: 100%;
+    height: 55vh;
+    background: #7c9292;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.footer-body {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-logo {
+    width: 400px;
+    height: 11vh;
+    display: flex;
+    align-items: center;
+    clip-path: polygon(0 0, 100% 0, 64% 100%, 0% 100%);
+    background: #000000;
+    padding: 10px;
+    line-height: 1.3rem;
+}
+
+.footer-logo p {
+    margin-left: 10px;
+    font-size: 45px;
+    color: #ffffff;
+}
+
+.fin {
+    width: 100%;
+    height: 7vh;
+    background: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.fin span {
+    color: #013230;
+    font-weight: bold;
+}
+
+.pdf{
+    font-family:Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 1px 30px;
+  border-radius: 7px;
+  opacity:90%;
+  margin-left:30%;
+  background:#a9b6b5;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  transform: scale(1); 
+  &:hover {
+    transform: scale(1.1); 
+    background:white ;
+  }
+}
+
+.new-rapport-btn{
+    font-family:Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 1px 10px;
+    border-radius: 7px;
+    opacity:90%;
+
+    background:#a9b6b5;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    transform: scale(1); 
+    &:hover {
+      transform: scale(1.1); 
+      background:white ;
+    }
+}
+
+.logform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: #90EE90;
+    background: url(sary/home93.jpg) center center fixed no-repeat ;
+    background-position: center;
+    background-size: cover;
+}

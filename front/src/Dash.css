@@ -1,0 +1,107 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
+  .paddingall {
+    padding: 10px 10px 10px 10px ;
+  }
+  
+  .pricetitle{
+    font-weight: 600;
+  }
+  
+  .pricesubtitle{
+    font-style: 14px;
+  }
+  
+  .iconstyle{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: aliceblue;
+  }
+  .iconstyleblack{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  /*css carte Acceuil*/
+  .gradient{
+    background-image: linear-gradient(to right bottom, #e10ee9, #c127eb, #9e34eb, #783ce9, #4641e5);
+  }
+  /*.gradient:hover{
+    background-image: linear-gradient(to right, #103CE7, #64E9FF);
+  }*/
+  .gradientlight{
+    background-image: linear-gradient(to right top, #e09c73, #f38275, #fd648d, #f250b8, #c357ec);
+  }
+  /*.gradientlight:hover{
+    background-image: linear-gradient(to right, #01993b, #56cf6a);
+  }*/
+  .bgcolor{
+    min-height: 100vh;
+    background: #ECEFF1;
+    background: linear-gradient(150deg, rgba(224, 224, 224, 1) 0%, rgba(233, 237, 254) 100%);
+  }
+  
+  .app.light-mode .tabDark {
+    background-color: #27b139;
+    color: #ffffff;
+  }
+  
+  
+  .app.dark-mode {
+    /* Styles pour le mode sombre */
+    background-color: #333333;
+    color: #ffffff;
+  }
+  .app.dark-mode .gradient {
+    /*background-image: linear-gradient(to right, #103CE7, #64E9FF);*/
+    background-image: linear-gradient(to right bottom, #e10ee9, #c127eb, #9e34eb, #783ce9, #4641e5);
+  }
+  .app.dark-mode .gradientlight {
+    /*background-image: linear-gradient(to right, #01993b, #56cf6a);*/
+    background-image: linear-gradient(to right top, #e09c73, #f38275, #fd648d, #f250b8, #c357ec);
+  }
+  .app.dark-mode .backdark {
+    /*background-color: #333333;*/
+    background-color: #1f1e1e;
+    color: #cecece;
+  }
+  .app.dark-mode .tabDark {
+    background-color: #333333;
+    color: #ECEFF1;
+  }
+  .app.dark-mode .inputDark {
+    background-color: #504f4f;
+    color: #ECEFF1;
+  }
+  .app.dark-mode .inputDark label {
+    color: #cecece;
+  }
+  .app.dark-mode .bgcolor {
+    min-height: 100vh;
+    /*background: #333333;
+    background: linear-gradient(150deg, rgb(92, 91, 91) 0%, rgb(58, 58, 58) 100%);*/
+    background: #2b2a2a;
+    background: linear-gradient(150deg, rgb(41, 40, 40) 0%, rgb(58, 58, 58) 100%);
+  }
+  
+  .app.dark-mode .MuiDrawer-paper {
+    background-color: #1f1e1e; 
+    color: #cecece; 
+  }
+  .app.dark-mode .MuiListItemIcon {
+    color: #cecece; 
+  }
+  .app.dark-mode .MuiListItemButton {
+    color: #cecece; 
+  }
+  .app.dark-mode .MuiListItem.selected .MuiListItemText-primary {
+    color: #ffffff; 
+  }
+  /*List*/
+  .app.dark-mode .MuiTabs-root,
+  .app.dark-mode .MuiTab-root {
+    color: #76aae6; 
+  }
+  
+  

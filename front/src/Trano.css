@@ -1,0 +1,39 @@
+@media (max-width: 767.98px) {
+    .navbar-nav {
+       flex-direction: row;
+     }
+   
+    .nav-link {
+       padding-right: 0.5rem!important;
+       padding-left: 0.5rem!important;
+     }
+   }
+
+.trano{
+    min-height: 100vh;
+    width: 100%;
+    background: #90EE90;
+    background: url(sary/back1.jpg) center center fixed no-repeat ;
+    background-position: center;
+    background-size: cover;
+}
+
+.texte  {
+ 
+   margin-left: 50%;
+}
+
+.texte h2{
+    font-size: 3.5rem;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.texte p {
+    font-size: 2rem;
+  
+}
+
+.bar{
+    z-index: 99;
+}
